@@ -1,0 +1,126 @@
+.main {
+    display: flex;
+    height: 100vh;
+    background: url(background.jpg);
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffbe46;
+    height: 200px;
+    width: 200px;
+    top: 154px;
+    left: 278px;
+}
+
+.circle2{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffbe46;
+    height: 200px;
+    width: 200px;
+    top: 628px;
+    left: 1017px;
+}
+
+.box {
+    height: 500px;
+    width: 750px;
+    border-radius: 20px;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.container {
+    color: white;
+    opacity: 1;
+    padding-top: 30px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+}
+
+.profile-info {
+    padding-left: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 35px;
+    color: white;
+    padding-bottom: 12px;
+}
+
+
+.button {
+    background-color: #ffbe46;
+    border: 0px solid rgba(27, 31, 35, .15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 9px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.des-container {
+    padding-top: 20px;
+    padding-left: 40px;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.des-container p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.tools {
+    padding-top: 20px;
+    padding-left: 40px;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.tools-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.icons{
+    outline: 1px solid white;
+    border-radius: 5px;
+    outline-offset: 2px;   
+    background-color: rgba(255, 255, 255, 0.3);
+}
